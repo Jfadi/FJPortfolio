@@ -115,7 +115,8 @@ section {
     font-weight: bold;
     color:  #6E00FF;
     letter-spacing: .2em;
-    font-size: .85em;
+    font-size: 1em;
+    text-align: center;
 }
 
 .featured-title {
@@ -136,6 +137,17 @@ section {
 
 .skills {
     background: #FF64CB;
+}
+
+.contact{
+    text-align: center;
+}
+
+.Project{
+    background: #00F7FF;
+    img {
+        max-width: 650px;
+    }
 }
 
 .skills-container ul li {
@@ -207,7 +219,7 @@ section {
 
     .skills-container ul {
         display: grid;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(1, auto);
         grid-gap: 1em;
     }
 
@@ -288,7 +300,7 @@ section {
 
     .portfolio img {
         float: right;
-        max-width: 500px;
+        max-width: 600px;
     }
 }
 
