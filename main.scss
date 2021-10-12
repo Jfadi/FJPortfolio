@@ -110,6 +110,11 @@ section {
     z-index: -1;
 }
 
+.Fadi{
+    border-radius: 1em;
+    max-height: 330px;
+}
+
 .subtitle {
     text-transform: uppercase;
     font-weight: bold;
@@ -230,6 +235,11 @@ section {
         margin-left: 2em;
     }
 
+}
+
+.MyPicture{
+    max-width: 250px;
+    padding-left: 135px;
 }
 
 @media only screen and (min-width: 1050px) {
